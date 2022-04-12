@@ -1,0 +1,21 @@
+package day09_scanner_logical;
+
+public class EligibleToVote {
+
+    public static void main(String[] args) {
+
+        boolean isUSCitizen = true;
+        int age = 30;
+        boolean hasCriminalBackground = false;
+
+        boolean isEligible = age >= 18 && isUSCitizen && !hasCriminalBackground;
+
+        System.out.println(isEligible);
+
+
+
+
+
+    }
+
+}
